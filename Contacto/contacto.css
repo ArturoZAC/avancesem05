@@ -1,0 +1,81 @@
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #aaaaaa;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+h2{
+    margin: 25px 0 35px 0;
+    text-align: center;
+}
+
+.container-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.content{
+    margin: 0 auto;
+    padding: 20px;
+    width: 450px;
+    background-color: #343a40ba;
+    border-radius: 15px;
+}
+
+.inputoff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+}
+
+.inputoff label{
+    margin: 0 auto 0 0;
+    color: white;
+}
+
+.inputoff input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.content-int {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content h2{
+    color: white;
+}
+
+.juego h3{
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 40px !important;
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 125px;
+    border-radius: 5px;
+}

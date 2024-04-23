@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMESDEALS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div>
+                <h1 class="text-center">GAMESDEALS</h1>
+            </div>
+            <div>
+                <div class="links">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Catalogo/catalogo.html">Catálogo</a> <!-- Modificado el enlace -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacto/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+ 
+    <section class="container">
+        <h2>Ofertas del mes</h2>
+        <div class="juegos-container">
+            <div class="juego">
+                <h3>RESIDENT EVIL 4 REMAKE</h3>
+                <div class="container-img">
+                    <img src="/img/RESIDENT4.jpeg" class="imgoff" alt="Resident Evil 4 Remake">
+                </div>
+                <div class="container-p">
+                    <p>Este juego, lanzado originalmente en 2005, sigue la historia del agente especial Leon S. Kennedy mientras investiga el secuestro de la hija del presidente en una aldea rural de Europa. Con una jugabilidad intensa, una atmósfera inquietante y una historia absorbente, "Resident Evil 4 Remake" ofrece una experiencia de juego emocionante.</p>
+                </div>
+                <button class="btn btn-warning">Comprar</button>
+            </div>
+
+            <div class="juego">
+                <h3>GOD OF WAR RAGNAROK</h3>
+                <div class="container-img">
+                    <img src="/img/god_of_war_ragnarok.jpeg" class="imgoff" alt="God of War: Ragnarök">
+                </div>
+
+                <div class="container-p">
+                    <p>"God of War: Ragnarök" es la secuela del aclamado juego de acción y aventuras "God of War" lanzado en 2018. En esta nueva entrega, los jugadores continuarán la historia de Kratos, el dios de la guerra, y su hijo Atreus mientras se embarcan en una épica búsqueda por los reinos nórdicos para detener el apocalipsis conocido como Ragnarök.
+                    </p>
+                </div>
+                <button class="btn btn-warning">Comprar</button>
+            </div>
+
+            <div class="juego">
+                <h3>HALF LIFE ALYX</h3>
+                <div class="container-img">
+                    <img src="/img/HALF-LIFE-ALYX.jpg" class="imgoff" alt="hla">
+                </div>
+
+                <div class="container-p">
+                    <p>Es un videojuego perteneciente al género de disparos en primera persona en realidad virtual desarrollado y publicado por Valve Corporation. Es el primer videojuego de la serie Half-Life desde el lanzamiento de Half-Life 2: Episode Two en 2007, y tiene lugar entre los eventos de Half-Life y Half-Life 2.
+                    </p>
+                </div>
+                <button class="btn btn-warning">Comprar</button>
+            </div>
+
+            <div class="juego">
+                <h3>PORTAL 2</h3>
+                <div class="container-img">
+                    <img src="/img/PORTAL2.jpg" class="imgoff" alt="portal2">
+                </div>
+
+                <div class="container-p">
+                    <p>Portal 2 es un juego de puzzle en primera persona desarrollado por Valve Corporation. La historia continúa desde el primer Portal, donde los jugadores controlan a Chell, quien es desafiada por GLaDOS, la inteligencia artificial malvada de Aperture Science. En Portal 2, Chell despierta en una versión deteriorada de las instalaciones de Aperture Science.
+                    </p>
+                </div>
+                <button class="btn btn-warning">Comprar</button>
+            </div>
+
+            <div class="juego">
+                <h3>LEFT 4 DEAD 2</h3>
+                <div class="container-img">
+                    <img src="/img/LEFT 4 DEAD 2.jpg" class="imgoff" alt="God of War: Ragnarök">
+                </div>
+
+                <div class="container-p">
+                    <p>La trama se centra en los intentos de los supervivientes por encontrar un lugar seguro mientras son perseguidos por los zombis y enfrentan desafíos en forma de áreas peligrosas, armas limitadas y la necesidad de colaboración para sobrevivir. Cada campaña del juego presenta una serie de niveles que los jugadores deben atravesar.
+                    </p>
+                </div>
+                <button class="btn btn-warning">Comprar</button>
+            </div>
+
+            <div class="juego">
+                <h3>DYING LIGHT 2</h3>
+                <div class="container-img">
+                    <img src="/img/OFF.jpg" class="imgoff" alt="God of War: Ragnarök">
+                </div>
+
+                <div class="container-p">
+                    <p>La trama de "Dying Light 2" se centra en el conflicto entre diferentes facciones que luchan por el control de recursos escasos y el futuro de Villedor. Los jugadores tienen la libertad de elegir cómo interactuar con estas facciones y cómo influir en el curso de los eventos, lo que lleva a múltiples finales y ramificaciones en la historia. 
+                    </p>
+                </div>
+                <button class="btn btn-warning">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estructura básica del carrito -->
+
+    <div class="carrito-container">
+        <div class="carrito">
+            <img src="img/carrito.jpge.png" alt="Logo del Carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="carrito-lista"></ul>
+            <div id="total-carrito">Total: $0</div>
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <p>Entrega semana 5 &copy; 2024 Tienda de Videojuegos</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
